@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42c2ff"
+    tools:context=".CalendarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/calendarheader" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="354dp"
+        android:layout_height="335dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="225dp"
+        android:src="@drawable/plan" />
+
+    <ImageButton
+        android:id="@+id/addplanbutton"
+        android:background="@color/schidol"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="101dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addplanbutton" />
+
+
+</FrameLayout>

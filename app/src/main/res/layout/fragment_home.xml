@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42C2FF"
+    tools:context=".HomeFragment"
+    tools:visibility="visible">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headerv3" />
+
+    <ImageView
+        android:id="@+id/goodmorning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/goodmorninghaewon" />
+
+    <ImageView
+        android:id="@+id/recknowingbuble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/eventbubble" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/upcomingevents" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/notifications" />
+
+
+
+    <ImageButton
+        android:id="@+id/sullyoonmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:background="#0042C2FF"
+        android:src="@drawable/messagesullyoon" />
+
+    <ImageButton
+        android:id="@+id/mommymiscall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:background="#0042C2FF"
+        android:src="@drawable/mommymiscall" />
+
+    <ImageButton
+        android:id="@+id/managerspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:background="#0042C2FF"
+        android:src="@drawable/managerspeeddials" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/speeddials" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="550dp"
+        android:background="#0042C2FF"
+        android:src="@drawable/speeddialsjinni" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="550dp"
+        android:background="#0042C2FF"
+        android:src="@drawable/speeddialskyujin" />
+
+
+</FrameLayout>

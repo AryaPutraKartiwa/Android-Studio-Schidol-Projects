@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42c2ff"
+    tools:context=".AddPeopleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addpeopleheader" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addpeoplebody" />
+
+    <ImageButton
+        android:id="@+id/addpeoplebutton1"
+        android:background="@color/schidol"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="450dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addpeople" />
+</FrameLayout>
